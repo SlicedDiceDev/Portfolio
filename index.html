@@ -70,6 +70,48 @@
 
     <!-- ***** Work ***** -->
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>My Work</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#dd9090;">
+    <a href="#ruins"><h2>Ruins</h2></a>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#8e5656;">
+    <a href="#chilljoy"><h2>Chill Joy</h2></a>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#5e2a2a;">
+    <a href="#hotr"><h2>HOTR</h2></a>
+    <p>Some text..</p>
+  </div>
+</div>
+
+
     <section class="work" id="work">
       <div class="row">
         <h2>My Work</h2>
@@ -78,7 +120,7 @@
           <!-- Each div with the work__box class is a project. -->
 
           <div class="work__box">
-            <div class="work__text">
+            <div class="work__text" id="ruins"> 
               <h3>Ruins</h3>
               <p>
                 A Level Design project inspired by FPS map designs and ancient cambodian architecture in Unreal Engine 5.4.
@@ -95,7 +137,7 @@
 
               <div class="work__links">
                 <a href="ruins.html" class="nav__link">
-                  Learn More <!--<span>&rarr;</span> -->
+                  Learn More <span>&rarr;</span>
                 </a>
                 <a href="https://sliceddicedev.github.io/Portfolio/" title="View Source Code" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
@@ -116,12 +158,21 @@
             
             <div class="vl"></div>
           <div class="work__box">
-            <div class="work__text">
+            <div class="work__text" id="chilljoy">
               <h3>Chill Joy</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
                 eius.
               </p>
+              <div class="work__image-box">
+                <img src="./images/ChillJoyTitle.png" class="ruins__image" alt="Project 1" />
+                <style>
+                .ruins_image{
+                  align-content: border-left;
+                  margin-left: 20px;
+                }
+              </style>
+              </div>
               <ul class="work__list">
                 <li>React</li>
                 <li>Next.js</li>
@@ -138,17 +189,23 @@
                 </a>
               </div>
             </div>
-            <div class="work__image-box">
-              <img src="./images/finaloverview.png" class="work__image" alt="Project 1" />
-            </div>
           </div>
 
           <div class="work__box">
-            <div class="work__text">
+            <div class="work__text" id="hotr">
               <h3>Handle Of The Realms</h3>
               <p>
                 A narrative exploration experience in Unreal 5.4.
               </p>
+              <div class="work__image-box">
+                <img src="./images/hotrlineup.png" class="ruins__image" alt="Project 1" />
+                <style>
+                .ruins_image{
+                  align-content: border-left;
+                  margin-left: 20px;
+                }
+              </style>
+              </div>
               <ul class="work__list">
                 <li>React</li>
                 <li>Next.js</li>
