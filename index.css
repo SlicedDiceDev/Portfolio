@@ -643,7 +643,7 @@ body:not(.user-is-tabbing) a:focus {
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: inside;
 }
 
 /* Next & previous buttons */
