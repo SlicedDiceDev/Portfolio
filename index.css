@@ -736,7 +736,7 @@ body:not(.user-is-tabbing) a:focus {
     position: relative;
     margin: auto;
     top: 50%;
-    right: -33%;
+    right: -23%;
 }
 
 .center-alignment {
