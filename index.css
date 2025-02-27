@@ -735,8 +735,7 @@ body:not(.user-is-tabbing) a:focus {
 .center-pdf-alignment {
     position: relative;
     margin: auto;
-    padding-right: 50%;
-    padding-left: 50%;
+    justify-content: center;
 }
 
 .center-alignment {
