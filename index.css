@@ -767,5 +767,5 @@ body:not(.user-is-tabbing) a:focus {
 .right-text-video{
     float: right;
     padding-left: 5%;
-    margin-right: 0%;
+    margin-right: 10%;
 }
