@@ -24,7 +24,7 @@
 
   <!-- Put your site title here -->
   <title>
-    Ryan McCloud | A Game Designer From Champlain College
+    Ryan McCloud
   </title>
 
   <meta name="description" content="Add small description of yourslef.">
@@ -42,7 +42,7 @@
       <nav class="nav" role="navigation">
         <ul class="nav__items">
           <!-- <a href="./ruins.html">Ruins</a> -->
-          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#projects" class="work__text">Projects</a></li>
           <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
@@ -58,9 +58,16 @@
         <h1 class="heading-primary">
           <!-- Replace the following name with your name -->
           <span>Ryan McCloud</span>
+          <style>
+          img {
+            border: 5px solid #ff3258;
+          }
+          </style>
+          <img src="./images/headshot.png" class="right-text-image" style="width:30%">
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>A Game Designer From Champlain College</p>
+        <p>Level & Narrative Designer</p>
+        <p>“Those who dare to fail miserably can achieve greatly.” - John F. Kennedy</p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
     </div>
@@ -94,10 +101,11 @@
 </head>
 <body>
 
+<section class="projects" id="projects">
 <div class="row">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <h2>My Work</h2>
-  <div class="column" style="background-color:#ae5959;">
+  <meta name="viewport" content="width=device-width, initial-scale=1" id="projects">
+  <h2>Projects</h2>
+  <!--<div class="column" style="background-color:#ae5959;">
     <a href="#ruins"><h2>Ruins</h2></a>
     <p>Some text..</p>
   </div>
@@ -108,7 +116,7 @@
   <div class="column" style="background-color:#4fa967;">
     <a href="#hotr"><h2>HOTR</h2></a>
     <p>Some text..</p>
-  </div>
+  </div>-->
 </div>
 
 
@@ -139,7 +147,6 @@
                   Learn More <span>&rarr;</span>
                 </a>
                 <a href="https://sliceddicedev.github.io/Portfolio/" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
             </div>
@@ -184,7 +191,6 @@
                   Learn More <span>&rarr;</span>
                 </a>
                 <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
@@ -227,15 +233,16 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> 
+  </section>
 
     <!-- ***** Clients ***** -->
 
-    <section class="client" id="clients">
+   <!-- <section class="client" id="clients">
       <div class="row">
         <h2>Clients</h2>
         <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
+           Add logos of the clients or companies you'have worked with.
           <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
           <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
           <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
@@ -244,7 +251,7 @@
           <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
         </div>
       </div>
-    </section>
+    </section>-->
 
     <!-- ***** About ***** -->
 
@@ -288,7 +295,7 @@
           me is via an email.
         </p>
         <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+        <a href="ryanpmccloud@gmail.com" class="btn">Reach Out Here!</a>
       </div>
     </div>
   </section>
@@ -315,8 +322,8 @@
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          <a href=https://www.linkedin.com/in/ryan-mccloud/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin" target="_blank">
           </a>
         </li>
       </ul>

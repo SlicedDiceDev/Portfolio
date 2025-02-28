@@ -113,7 +113,9 @@ section {
 img {
     object-fit: contain;
     max-width: 100%;
+    border: #ff3258;
 }
+
 
 /* --------------------------------------- */
 /* ----- Headlines and Paragraphs ----- */
