@@ -43,13 +43,8 @@
         <ul class="nav__items">
           <!-- <a href="./ruins.html">Ruins</a> -->
           <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -58,12 +53,8 @@
         <h1 class="heading-primary">
           <!-- Replace the following name with your name -->
           <span>Ryan McCloud</span>
-          <style>
-          img {
-            border: 5px solid #ff3258;
-          }
-          </style>
-          <img src="./images/headshot.png" class="right-text-image" style="width:30%">
+
+          <img src="./images/headshot.png" class="headshot-image"style="border: 5px solid #ff3258;">
         </h1>
         <!-- Put a small paragraph about yourself -->
         <p>Level & Narrative Designer</p>
@@ -100,31 +91,62 @@
 </style>
 </head>
 <body>
-
 <section class="projects" id="projects">
 <div class="row">
   <meta name="viewport" content="width=device-width, initial-scale=1" id="projects">
   <h2>Projects</h2>
-  <!--<div class="column" style="background-color:#ae5959;">
-    <a href="#ruins"><h2>Ruins</h2></a>
-    <p>Some text..</p>
+  <div class="column" style="background-color:#ae595900;">
+    <a href="#ruins.html"><h2>Ruins</h2></a>
+    <p>A Level Design project inspired by FPS map designs and ancient cambodian architecture in Unreal Engine 5.4.</p>
+      <img src="./images/finaloverview.png" class="ruins__image" alt="Project 1">
+      <style>
+      .ruins_image{
+        align-content: border-left;
+        margin-left: 20px;
+      }
+    </style>
   </div>
-  <div class="column" style="background-color:#568e8a;">
-    <a href="#chilljoy"><h2>Chill Joy</h2></a>
-    <p>Some text..</p>
+  <div class="column" style="background-color:#568e8a00;">
+    <a href="#chilljoy.html"><h2>Chill Joy</h2></a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+      eius.</p>
+        <img src="./images/ChillJoyTitle.png" class="ruins__image" alt="Project 1" />
+        <style>
+        .ruins_image{
+          align-content: border-left;
+          margin-left: 20px;
+        }
+      </style>
   </div>
-  <div class="column" style="background-color:#4fa967;">
-    <a href="#hotr"><h2>HOTR</h2></a>
-    <p>Some text..</p>
-  </div>-->
+  <div class="column" style="background-color:#4fa96700;">
+    <a href="#hotr.html"><h2>HOTR</h2></a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+      eius.</p>
+      <img src="./images/hotrlineup.png" class="ruins__image" alt="Project 1" />
+                <style>
+                .ruins_image{
+                  align-content: border-left;
+                  margin-left: 20px;
+                }
+              </style>
+  </div>
 </div>
+</section>
 
+<style>
+  .vl {
+   border-left: 3px solid white;
+   height: 300px;
+    position: absolute;
+    left: 35%;
+   margin-top: 1000px;
+    top: 0;
+  }
+  </style>
 
-    <section class="work" id="work">
+<!--<section class="work" id="work">
       <div class="row">
         <div class="work__boxes">
-
-          <!-- Each div with the work__box class is a project. -->
 
           <div class="work__box">
             <div class="work__text" id="ruins"> 
@@ -151,16 +173,6 @@
               </div>
             </div>
           </div>
-          <!--<style>
-            .vl {
-             border-left: 3px solid white;
-             height: 300px;
-              position: absolute;
-              left: 35%;
-             margin-top: 1000px;
-              top: 0;
-}
-            </style>-->
             
             <div class="vl"></div>
           <div class="work__box">
@@ -233,9 +245,8 @@
           </div>
         </div>
       </div>
-    </section> 
-  </section>
-
+    </section>--> 
+  
     <!-- ***** Clients ***** -->
 
    <!-- <section class="client" id="clients">
@@ -278,7 +289,6 @@
         </div>
       </div>
     </section>
-  </main>
 
   <!-- ***** Contact ***** -->
 
@@ -322,7 +332,7 @@
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/ryan-mccloud/">
+          <a href=https://www.linkedin.com/in/ryan-mccloud>
             <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin" target="_blank">
           </a>
         </li>

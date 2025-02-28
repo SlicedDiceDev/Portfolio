@@ -113,7 +113,13 @@ section {
 img {
     object-fit: contain;
     max-width: 100%;
-    border: #ff3258;
+}
+
+.borderimg
+{
+    object-fit: contain;
+    max-width: 100%;
+    border: 5px solid #ff3258;
 }
 
 
@@ -557,13 +563,13 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__content {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
 }
 
 @media(max-width: 900px) {
     .about__content {
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: initial;
     }
 }
@@ -772,6 +778,12 @@ body:not(.user-is-tabbing) a:focus {
     padding-top: 5%;
     padding-bottom: 5%;
     margin-right: 10%;
+}
+
+.headshot-image{
+    float: right;
+    margin-right: 10%;
+    width: 30%;
 }
 
 /* Style The Dropdown Button */
