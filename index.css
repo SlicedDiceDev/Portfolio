@@ -770,7 +770,7 @@ body:not(.user-is-tabbing) a:focus {
 .about-me-image{
     float: right;
     margin-right: 10%;
-    margin-top: -20%;
+    margin-top: 0%;
 }
 
 .left-text-image{
