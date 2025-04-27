@@ -768,6 +768,18 @@ body:not(.user-is-tabbing) a:focus {
     padding-left: 2%;
 }
 
+.left-text-image{
+    float: left;
+    margin-left: 10%;
+    padding-bottom: 2%;
+}
+
+.chilljoy-image{
+  align-content: border-right;
+  margin-right: 20%;
+  width: 40%;
+}
+
 .about-me-image{
     float: right;
     margin-right: 10%;
